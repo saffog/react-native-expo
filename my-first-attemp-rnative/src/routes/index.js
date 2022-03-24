@@ -15,6 +15,10 @@ import {
     PROFILE
 } from '../constants';
 
+/* This section is required to setup the several routes for my views 
+    Notice we are using stack navigator to put the views order to show.
+*/ 
+
 const AppNavigator = createStackNavigator({
     [LOGIN]:Login,
     [LOADING_PAGE]:LoadingPage,
